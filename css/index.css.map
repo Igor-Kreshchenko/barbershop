@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,uBAAuB;CACrC;;AAED,AAAA,GAAG,CAAC;EACF,OAAO,EAAE,KAAK;EACd,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,IAAI;CACb",
     "sources": [
-        "../sass/index.scss"
+        "../sass/index.scss",
+        "../sass/utils/base/_body.scss",
+        "../sass/utils/_variables.scss"
     ],
     "names": [],
     "file": "index.css"

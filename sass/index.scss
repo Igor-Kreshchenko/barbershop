@@ -1,3 +1,16 @@
 @import './utils/base/body';
 
 @import './utils/variables';
+@import './utils/placeholders';
+
+@import './components/main-button';
+@import './components/section-label';
+@import './components/section-title';
+
+@import './components/page-header';
+@import './components/nav';
+
+@import './components/hero';
+@import './components/contacts';
+
+@import './components/photo-list';

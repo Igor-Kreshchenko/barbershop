@@ -1,0 +1,14 @@
+.nav {
+  .nav__list {
+    @extend%list;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+  }
+
+  .nav__link {
+    @extend%link;
+    color: $secondary-title-color;
+  }
+}

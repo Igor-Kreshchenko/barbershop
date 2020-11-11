@@ -1,17 +1,4 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  line-height: 1.86;
-  letter-spacing: 0.02em;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.nav .nav__list, .contacts, .photo-list {
+.nav .nav__list, .contacts, .photo-list, .price-list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -19,6 +6,20 @@ img {
 
 .header .header__tel, .nav .nav__link, .contacts .contacts__link {
   text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .main-button {
@@ -46,6 +47,15 @@ img {
   line-height: 1.17;
   letter-spacing: 0.05em;
   color: #303030;
+}
+
+.section__subtitle {
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+.section__text {
+  margin-bottom: 40px;
 }
 
 .header {
@@ -110,5 +120,11 @@ img {
 
 .contacts .contacts__link {
   color: #555555;
+}
+
+.price-list {
+  font-size: 18px;
+  line-height: 1.67;
+  color: #9da4bd;
 }
 /*# sourceMappingURL=index.css.map */

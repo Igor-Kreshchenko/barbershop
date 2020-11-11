@@ -1,0 +1,7 @@
+.price-list {
+  @extend%list;
+  font-size: 18px;
+  line-height: 1.67;
+
+  color: $secondary-text-color;
+}

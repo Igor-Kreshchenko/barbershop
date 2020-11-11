@@ -1,11 +1,13 @@
-@import './utils/base/body';
-
 @import './utils/variables';
 @import './utils/placeholders';
+
+@import './utils/base/body';
 
 @import './components/main-button';
 @import './components/section-label';
 @import './components/section-title';
+@import './components/section-subtitle';
+@import './components/section-text';
 
 @import './components/page-header';
 @import './components/nav';
@@ -14,3 +16,5 @@
 @import './components/contacts';
 
 @import './components/photo-list';
+
+@import './components/price-list';

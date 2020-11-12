@@ -1,6 +1,6 @@
 .header {
   background-color: teal;
-  .header__tel {
+  &__tel {
     @extend%link;
     font-weight: 600;
     font-size: 12px;

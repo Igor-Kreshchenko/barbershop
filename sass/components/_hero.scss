@@ -1,6 +1,6 @@
 .hero {
   background-color: grey;
-  .hero__label {
+  &__label {
     font-weight: 600;
     font-size: 11px;
     line-height: 1.36;
@@ -10,7 +10,7 @@
     color: rgba(157, 164, 189, 0.6);
   }
 
-  .hero__title {
+  &__title {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 72px;
@@ -20,7 +20,7 @@
     color: $secondary-title-color;
   }
 
-  .hero___text {
+  &___text {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.67;

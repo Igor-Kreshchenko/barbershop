@@ -1,10 +1,10 @@
-.nav .nav__list, .contacts, .photo-list, .price-list {
+.nav__list, .contacts, .photo-list, .price-list, .advantages {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.header .header__tel, .nav .nav__link, .contacts .contacts__link {
+.header__tel, .nav__link, .contacts .contacts__link {
   text-decoration: none;
 }
 
@@ -62,7 +62,7 @@ img {
   background-color: teal;
 }
 
-.header .header__tel {
+.header__tel {
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
@@ -71,14 +71,14 @@ img {
   color: #ffffff;
 }
 
-.nav .nav__list {
+.nav__list {
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.1em;
 }
 
-.nav .nav__link {
+.nav__link {
   color: #ffffff;
 }
 
@@ -86,7 +86,7 @@ img {
   background-color: grey;
 }
 
-.hero .hero__label {
+.hero__label {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
@@ -95,7 +95,7 @@ img {
   color: rgba(157, 164, 189, 0.6);
 }
 
-.hero .hero__title {
+.hero__title {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 72px;
@@ -104,7 +104,7 @@ img {
   color: #ffffff;
 }
 
-.hero .hero___text {
+.hero___text {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.67;
@@ -126,5 +126,27 @@ img {
   font-size: 18px;
   line-height: 1.67;
   color: #9da4bd;
+}
+
+.advantages__number {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.advantages__plus {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.38;
+  color: #ff6c00;
+}
+
+.advantages__text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  color: #303030;
 }
 /*# sourceMappingURL=index.css.map */

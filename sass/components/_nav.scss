@@ -1,5 +1,5 @@
 .nav {
-  .nav__list {
+  &__list {
     @extend%list;
     font-weight: 600;
     font-size: 12px;
@@ -7,7 +7,7 @@
     letter-spacing: 0.1em;
   }
 
-  .nav__link {
+  &__link {
     @extend%link;
     color: $secondary-title-color;
   }

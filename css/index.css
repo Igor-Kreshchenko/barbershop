@@ -54,6 +54,7 @@ img {
 
 .main-button:hover, .main-button:focus {
   background-color: #ff6c00;
+  color: #ffffff;
 }
 
 .section {

@@ -9,4 +9,8 @@
   text-transform: uppercase;
 
   color: $primary-title-color;
+
+  &--white {
+    color: $secondary-text-color;
+  }
 }

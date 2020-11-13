@@ -1,7 +1,17 @@
 .price-list {
   @extend%list;
+  display: flex;
+  margin-bottom: 50px;
+
   font-size: 18px;
   line-height: 1.67;
 
   color: $secondary-text-color;
+
+  &__box {
+    width: 50%;
+    padding: 30px 40px;
+
+    outline: 1px solid tomato;
+  }
 }

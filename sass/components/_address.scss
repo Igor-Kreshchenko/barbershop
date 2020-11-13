@@ -5,6 +5,11 @@
 
   &__list {
     @extend%list;
+    margin-bottom: 70px;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 20px;
   }
 
   &__link {

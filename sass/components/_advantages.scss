@@ -7,7 +7,7 @@
   margin-right: 115px;
 
   &__item {
-    width: 170px;
+    width: calc((100% - 60px) / 2);
     padding: 20px 22px;
     margin: 15px;
 

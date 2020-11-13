@@ -1,10 +1,18 @@
 .nav {
+  display: flex;
   &__list {
     @extend%list;
+    display: flex;
+    align-items: center;
+
     font-weight: 600;
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.1em;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 40px;
   }
 
   &__link {

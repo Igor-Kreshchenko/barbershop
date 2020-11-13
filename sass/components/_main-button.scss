@@ -1,4 +1,9 @@
 .main-button {
+  display: block;
+  padding: 12px 20px;
+  border: 1px solid $accent-color;
+  border-radius: 25px;
+
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
@@ -6,4 +11,9 @@
   text-transform: uppercase;
 
   color: $secondary-title-color;
+  background-color: transparent;
+
+  &--black {
+    color: $primary-title-color;
+  }
 }

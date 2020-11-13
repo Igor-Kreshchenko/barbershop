@@ -34,15 +34,31 @@ img {
 }
 
 .main-button {
+  display: block;
+  padding: 12px 20px;
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.09em;
   text-transform: uppercase;
   color: #ffffff;
+  background-color: transparent;
+}
+
+.main-button--black {
+  color: #303030;
+}
+
+.section {
+  padding-top: 130px;
+  padding-bottom: 130px;
 }
 
 .section__label {
+  margin-top: 0;
+  margin-bottom: 20px;
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
@@ -52,6 +68,8 @@ img {
 }
 
 .section__title {
+  margin-top: 0;
+  margin-bottom: 20px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 42px;
@@ -61,19 +79,39 @@ img {
 }
 
 .section__subtitle {
+  margin-top: 0;
+  margin-bottom: 20px;
   font-size: 18px;
   line-height: 1.67;
 }
 
 .section__text {
+  margin-top: 0;
   margin-bottom: 40px;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header {
-  background-color: teal;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: grey;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .header__tel {
+  margin-right: 40px;
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
@@ -82,15 +120,45 @@ img {
   color: #ffffff;
 }
 
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.1em;
 }
 
+.nav__item:not(:last-child) {
+  margin-right: 40px;
+}
+
 .nav__link {
   color: #ffffff;
+}
+
+.logo {
+  margin-right: 71px;
+}
+
+.sign-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
 }
 
 .hero {
@@ -98,6 +166,8 @@ img {
 }
 
 .hero__label {
+  margin-top: 0;
+  margin-bottom: 20px;
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
@@ -107,6 +177,8 @@ img {
 }
 
 .hero__title {
+  margin-top: 0;
+  margin-bottom: 20px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 72px;
@@ -116,6 +188,8 @@ img {
 }
 
 .hero___text {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.67;
@@ -131,6 +205,27 @@ img {
 
 .contacts__link {
   color: #555555;
+}
+
+.about .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about__box {
+  max-width: 500px;
+}
+
+.photo-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 64px;
+}
+
+.photo-list__item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .price-list {

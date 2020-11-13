@@ -1,0 +1,9 @@
+.about {
+  .container {
+    display: flex;
+  }
+
+  &__box {
+    max-width: 500px;
+  }
+}

@@ -24,6 +24,11 @@
     &:focus {
       color: $secondary-title-color;
     }
+
+    &:hover .form__input,
+    &:focus .form__input {
+      border-color: $secondary-title-color;
+    }
   }
 
   &__title {

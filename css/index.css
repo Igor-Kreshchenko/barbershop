@@ -511,6 +511,11 @@ img {
   color: #ffffff;
 }
 
+.form__label:hover .form__input,
+.form__label:focus .form__input {
+  border-color: #ffffff;
+}
+
 .form__title {
   position: absolute;
   top: 0;

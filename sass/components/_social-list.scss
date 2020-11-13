@@ -3,11 +3,6 @@
   display: flex;
 
   &__item {
-    border-radius: 50%;
-    overflow: hidden;
-
-    background-color: $primary-bg-color;
-
     &:not(:last-child) {
       margin-right: 10px;
     }
@@ -19,7 +14,8 @@
     height: 44px;
     display: block;
     padding: 12px;
-
+    border-radius: 50%;
+    background-color: $primary-bg-color;
     color: $primary-title-color;
 
     &:hover,

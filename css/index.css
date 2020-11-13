@@ -1,11 +1,22 @@
-.nav__list, .contacts, .photo-list, .price-list, .advantages {
+.nav__list, .contacts, .photo-list, .price-list, .advantages, .team-list, .social-list, .gallery, .address__list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.header__tel, .nav__link, .contacts .contacts__link {
+.header__tel, .nav__link, .contacts__link, .address__link {
   text-decoration: none;
+}
+
+.section__title--hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
 
 body {
@@ -118,7 +129,7 @@ img {
   letter-spacing: 0.2em;
 }
 
-.contacts .contacts__link {
+.contacts__link {
   color: #555555;
 }
 
@@ -148,5 +159,34 @@ img {
   font-size: 11px;
   line-height: 1.36;
   color: #303030;
+}
+
+.team-list__title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.39;
+  color: #303030;
+}
+
+.team-list__position {
+  font-size: 14px;
+  line-height: 1.36;
+  color: #ff6c00;
+}
+
+.main-contacts__time {
+  font-size: 18px;
+  line-height: 1.67;
+  color: #9da4bd;
+}
+
+.address {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+.address__link {
+  color: #9da4bd;
 }
 /*# sourceMappingURL=index.css.map */

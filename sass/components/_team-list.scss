@@ -1,0 +1,18 @@
+.team-list {
+  @extend%list;
+
+  &__title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.39;
+
+    color: $primary-title-color;
+  }
+
+  &__position {
+    font-size: 14px;
+    line-height: 1.36;
+
+    color: $accent-color;
+  }
+}

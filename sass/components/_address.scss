@@ -1,0 +1,14 @@
+.address {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.67;
+
+  &__list {
+    @extend%list;
+  }
+
+  &__link {
+    @extend%link;
+    color: $secondary-text-color;
+  }
+}

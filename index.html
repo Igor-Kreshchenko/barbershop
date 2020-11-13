@@ -307,6 +307,27 @@
             <div class="container">
                 <section class="section online">
                     <h2 class="section__title">Онлайн-запись</h2>
+
+                    <form class="form">
+                        <div class="form__box">
+                            <label class="form__label">
+                                <span class="form__title">имя*</span>
+                                <input type="text" name="name" class="form__input form__input--name">
+                            </label>
+
+                            <label class="form__label">
+                                <span class="form__title">телефон*</span>
+                                <input type="tel" name="tel" class="form__input form__input--tel">
+                            </label>
+                        </div>
+
+                        <label class="form__label">
+                            <span class="form__title">сообщение</span>
+                            <textarea name="comment" class="form__input form__input--textarea"></textarea>
+                        </label>
+                    </form>
+
+                    <button class="main-button" type="button">отправить</button>
                 </section>
 
                 <section class="section main-contacts">

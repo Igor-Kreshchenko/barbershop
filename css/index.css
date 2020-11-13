@@ -35,6 +35,7 @@ img {
 
 .main-button {
   display: block;
+  min-width: 160px;
   padding: 12px 20px;
   border: 1px solid #ff6c00;
   border-radius: 25px;
@@ -475,7 +476,67 @@ img {
 }
 
 .online .section__title {
+  margin-bottom: 44px;
   color: #ffffff;
+}
+
+.form {
+  max-width: 560px;
+  margin-bottom: 44px;
+}
+
+.form__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 44px;
+}
+
+.form__label {
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.4);
+}
+
+.form__label:hover, .form__label:focus {
+  color: #ffffff;
+}
+
+.form__title {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.form__input {
+  height: 24px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  color: #ffffff;
+}
+
+.form__input--name {
+  width: 270px;
+}
+
+.form__input--tel {
+  width: 260px;
+}
+
+.form__input--textarea {
+  display: block;
+  width: 560px;
+  min-height: 76px;
+  resize: none;
 }
 
 .main-contacts {

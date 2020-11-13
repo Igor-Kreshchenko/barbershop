@@ -1,7 +1,24 @@
 .advantages {
   @extend%list;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+  margin: -15px;
+  margin-right: 115px;
+
+  &__item {
+    width: 170px;
+    padding: 20px 22px;
+    margin: 15px;
+
+    background-color: #f7f7f7;
+  }
 
   &__number {
+    display: block;
+    text-align: center;
+
+    margin-bottom: 6px;
     font-weight: 700;
     font-size: 42px;
     line-height: 1.36;
@@ -11,6 +28,7 @@
   }
 
   &__plus {
+    margin-left: 2px;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.38;
@@ -19,9 +37,11 @@
   }
 
   &__text {
+    display: block;
+    text-align: center;
     font-weight: 600;
     font-size: 11px;
-    line-height: 1.36;
+    line-height: 1.362;
 
     color: $primary-title-color;
   }

@@ -1,5 +1,12 @@
 .team-list {
   @extend%list;
+  display: flex;
+  margin: -15px;
+
+  &__item {
+    width: calc((100%-90px) / 3);
+    margin: 15px;
+  }
 
   &__title {
     font-weight: 400;

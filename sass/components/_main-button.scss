@@ -16,4 +16,9 @@
   &--black {
     color: $primary-title-color;
   }
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
 }

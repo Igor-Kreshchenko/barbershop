@@ -63,6 +63,12 @@ img {
 }
 
 .section__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 0;
   margin-bottom: 20px;
   font-weight: 600;
@@ -73,8 +79,17 @@ img {
   color: #303030;
 }
 
+.section__label::before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 1px;
+  margin-right: 20px;
+  background-color: currentColor;
+}
+
 .section__label--white {
-  color: #9da4bd;
+  color: rgba(157, 164, 189, 0.6);
 }
 
 .section__title {
@@ -175,19 +190,17 @@ img {
   margin-left: auto;
 }
 
-.hero {
-  background-color: grey;
+.hero .container {
+  padding-left: 215px;
+  background-image: url(../images/bg-images/slider3-desktop-1125.jpg);
+  background-repeat: no-repeat;
+  background-position: left 115px center;
 }
 
-.hero__label {
-  margin-top: 0;
-  margin-bottom: 20px;
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: rgba(157, 164, 189, 0.6);
+.hero__content {
+  max-width: 500px;
+  padding-top: 152px;
+  padding-bottom: 206px;
 }
 
 .hero__title {
@@ -245,7 +258,7 @@ img {
 .prices {
   background-color: #111319;
   background-image: url(../images/bg-images/prices-bg.png);
-  background-position: center;
+  background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -456,10 +469,6 @@ img {
 
 .flexbox {
   background-color: #191c26;
-  background-image: url(../images/bg-images/contacts-bg.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 50%;
 }
 
 .flexbox .container {
@@ -469,7 +478,8 @@ img {
 }
 
 .online {
-  width: 50%;
+  width: calc((100% - 30px) / 2);
+  margin-right: 30px;
 }
 
 .online .section__title {
@@ -542,9 +552,12 @@ img {
 }
 
 .main-contacts {
-  width: 50%;
+  width: calc((100% - 30px) / 2);
   padding-left: 100px;
   padding-right: 100px;
+  background-image: url(../images/bg-images/contacts-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
 .main-contacts .section__title {

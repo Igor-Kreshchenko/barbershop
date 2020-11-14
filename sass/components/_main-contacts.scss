@@ -1,7 +1,11 @@
 .main-contacts {
-  width: 50%;
+  width: calc((100% - 30px) / 2);
   padding-left: 100px;
   padding-right: 100px;
+
+  background-image: url(../images/bg-images/contacts-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 
   .section__title {
     color: $secondary-title-color;

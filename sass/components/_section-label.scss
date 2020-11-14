@@ -1,4 +1,6 @@
 .section__label {
+  display: flex;
+  align-items: center;
   margin-top: 0;
   margin-bottom: 20px;
 
@@ -10,7 +12,16 @@
 
   color: $primary-title-color;
 
+  &::before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 1px;
+    margin-right: 20px;
+    background-color: currentColor;
+  }
+
   &--white {
-    color: $secondary-text-color;
+    color: rgba(157, 164, 189, 0.6);
   }
 }

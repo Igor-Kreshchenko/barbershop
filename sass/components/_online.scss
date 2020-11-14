@@ -1,5 +1,6 @@
 .online {
-  width: 50%;
+  width: calc((100% - 30px) / 2);
+  margin-right: 30px;
 
   .section__title {
     margin-bottom: 44px;

@@ -18,5 +18,10 @@
     text-transform: uppercase;
 
     color: $secondary-title-color;
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
   }
 }

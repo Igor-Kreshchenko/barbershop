@@ -12,11 +12,16 @@
     margin: 15px;
 
     background-color: #f7f7f7;
+
+    &:nth-child(2n) {
+      transform: translateY(35px);
+    }
   }
 
   &__number {
     display: block;
     text-align: center;
+    vertical-align: top;
 
     margin-bottom: 6px;
     font-weight: 700;

@@ -1,6 +1,19 @@
 .footer {
+  padding-top: 56px;
+  padding-bottom: 56px;
+
   .container {
     display: flex;
     justify-content: space-between;
+  }
+
+  &__copy {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+
+    color: $secondary-text-color;
   }
 }

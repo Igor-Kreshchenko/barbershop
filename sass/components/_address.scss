@@ -14,6 +14,16 @@
 
   &__link {
     @extend%link;
+    display: flex;
+    align-items: center;
     color: $secondary-text-color;
+  }
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+
+    fill: currentColor;
   }
 }

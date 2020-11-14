@@ -1,15 +1,20 @@
 .hero {
+  // background-image: url(../images/bg-images/slider3-desktop-1125.jpg);
+  // background-repeat: no-repeat;
+  // background-position: left 115px center;
+  // background-size: cover;
+
   .container {
+    position: relative;
     padding-left: 215px;
-    background-image: url(../images/bg-images/slider3-desktop-1125.jpg);
-    background-repeat: no-repeat;
-    background-position: left 115px center;
   }
 
   &__content {
     max-width: 500px;
-    padding-top: 152px;
+    padding-top: 272px;
     padding-bottom: 206px;
+
+    background-color: tomato;
   }
 
   &__title {

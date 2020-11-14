@@ -1,8 +1,8 @@
 .header {
+  position: absolute;
+  z-index: 50;
   padding-top: 32px;
   padding-bottom: 32px;
-
-  background-color: grey;
 
   .container {
     display: flex;

@@ -4,7 +4,7 @@
   list-style: none;
 }
 
-.header__tel, .nav__link, .contacts__item .contacts__link, .social-list__link, .address__link {
+.header__tel, .nav__link, .contacts__link, .social-list__link, .address__link {
   text-decoration: none;
 }
 
@@ -130,6 +130,9 @@ img {
 
 .header {
   position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 50;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -190,6 +193,11 @@ img {
   margin-right: 71px;
 }
 
+.logo__image {
+  width: 68px;
+  height: 56px;
+}
+
 .sign-up {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -203,13 +211,16 @@ img {
 .hero .container {
   position: relative;
   padding-left: 215px;
+  background-color: #ffffff;
+  background-image: url(../images/bg-images/slider3-desktop-1125.jpg);
+  background-repeat: no-repeat;
+  background-position: left 115px center;
 }
 
 .hero__content {
   max-width: 500px;
   padding-top: 272px;
   padding-bottom: 206px;
-  background-color: tomato;
 }
 
 .hero__title {
@@ -264,7 +275,7 @@ img {
   margin-right: 40px;
 }
 
-.contacts__item .contacts__link {
+.contacts__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -274,22 +285,19 @@ img {
   color: #555555;
 }
 
-.contacts__item .contacts__link:hover, .contacts__item .contacts__link:focus {
+.contacts__link:hover, .contacts__link:focus {
   color: #ff6c00;
 }
 
 .contacts--rotate {
   position: absolute;
-  left: 0;
   bottom: 40px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  left: 115px;
   height: 115px;
   padding-top: 15px;
   padding-bottom: 30px;
-  -webkit-transform-origin: top left;
-          transform-origin: top left;
+  -webkit-transform-origin: left bottom;
+          transform-origin: left bottom;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
@@ -695,6 +703,7 @@ img {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
+  letter-spacing: 0.2em;
   color: #9da4bd;
 }
 /*# sourceMappingURL=index.css.map */

@@ -24,7 +24,7 @@
     }
   }
 
-  &__item &__link {
+  &__link {
     @extend%link;
     display: flex;
     align-items: center;
@@ -38,13 +38,12 @@
 
   &--rotate {
     position: absolute;
-    left: 0;
     bottom: 40px;
-    align-items: center;
+    left: 115px;
     height: 115px;
     padding-top: 15px;
     padding-bottom: 30px;
-    transform-origin: top left;
+    transform-origin: left bottom;
     transform: rotate(-90deg);
   }
 }

@@ -244,7 +244,6 @@ img {
 
 .prices {
   background-color: #111319;
-  background-image: url(../../images/bg-images/prices-bg-1x.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -414,12 +413,6 @@ img {
   display: flex;
 }
 
-.social-list__item {
-  border-radius: 50%;
-  overflow: hidden;
-  background-color: #ffffff;
-}
-
 .social-list__item:not(:last-child) {
   margin-right: 10px;
 }
@@ -429,6 +422,8 @@ img {
   height: 44px;
   display: block;
   padding: 12px;
+  border-radius: 50%;
+  background-color: #ffffff;
   color: #303030;
 }
 
@@ -460,7 +455,6 @@ img {
 
 .flexbox {
   background-color: #191c26;
-  background-image: url(../../images/bg-images/contacts-bg-1x.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: 50%;

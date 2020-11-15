@@ -47,6 +47,8 @@ img {
   text-transform: uppercase;
   color: #ffffff;
   background-color: transparent;
+  -webkit-transition: background-color 250ms linear, color 250ms linear;
+  transition: background-color 250ms linear, color 250ms linear;
 }
 
 .main-button--black {
@@ -152,6 +154,8 @@ img {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #ffffff;
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
 }
 
 .header__tel:hover, .header__tel:focus {
@@ -183,6 +187,8 @@ img {
 
 .nav__link {
   color: #ffffff;
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
 }
 
 .nav__link:hover, .nav__link:focus {
@@ -283,6 +289,8 @@ img {
       -ms-flex-align: center;
           align-items: center;
   color: #555555;
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
 }
 
 .contacts__link:hover, .contacts__link:focus {
@@ -515,6 +523,8 @@ img {
   border-radius: 50%;
   background-color: #ffffff;
   color: #303030;
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
 }
 
 .social-list__link:hover, .social-list__link:focus {
@@ -587,15 +597,12 @@ img {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: rgba(157, 164, 189, 0.4);
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
 }
 
 .form__label:hover, .form__label:focus {
   color: #ffffff;
-}
-
-.form__label:hover .form__input,
-.form__label:focus .form__input {
-  border-color: #ffffff;
 }
 
 .form__title {
@@ -610,6 +617,13 @@ img {
   border: none;
   border-bottom: 1px solid rgba(157, 164, 189, 0.4);
   color: #ffffff;
+  -webkit-transition: border-color 250ms linear;
+  transition: border-color 250ms linear;
+}
+
+.form__label .form__input:hover,
+.form__label .form__input:focus {
+  border-color: #ffffff;
 }
 
 .form__input--name {

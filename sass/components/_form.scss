@@ -20,14 +20,11 @@
 
     color: rgba(157, 164, 189, 0.4);
 
+    transition: color 250ms linear;
+
     &:hover,
     &:focus {
       color: $secondary-title-color;
-    }
-
-    &:hover .form__input,
-    &:focus .form__input {
-      border-color: $secondary-title-color;
     }
   }
 
@@ -44,6 +41,13 @@
     border-bottom: 1px solid rgba(157, 164, 189, 0.4);
 
     color: $secondary-title-color;
+
+    transition: border-color 250ms linear;
+
+    .form__label &:hover,
+    .form__label &:focus {
+      border-color: $secondary-title-color;
+    }
 
     &--name {
       width: 270px;

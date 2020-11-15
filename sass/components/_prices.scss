@@ -1,7 +1,7 @@
 .prices {
   background-color: #111319;
   background-image: url(../images/bg-images/prices-bg-tablet.png);
-  background-position: center center;
+  background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -10,7 +10,14 @@
   }
 
   &__wrap {
-    display: flex;
+    background-image: linear-gradient(
+      180deg,
+      #171a24 0%,
+      rgba(23, 26, 36, 0.2) 100%
+    );
+    @media screen and (min-width: 1200px) {
+      display: flex;
+    }
   }
 
   .main-button {

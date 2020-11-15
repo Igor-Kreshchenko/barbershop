@@ -63,14 +63,26 @@
         <section class="section about">
             <div class="container">
                 <ul class="photo-list">
-                    <li class="photo-list__item"><img
-                            srcset="./images/content/photo1-desktop-1x.jpg 1x, ./images/content/photo1-desktop-2x.jpg 2x"
-                            src="./images/content/photo1-desktop-1x.jpg" alt="Нанесение пены для бритья" width="270"
-                            height="445">
+                    <li class="photo-list__item">
+                        <picture>
+                            <source
+                                srcset="./images/content/tablet/photo1-tablet-1x.jpg 1x, ./images/content/tablet/photo1-tablet-2x.jpg 2x"
+                                media="(max-width:1199px)">
+
+                            <img srcset="./images/content/photo1-desktop-1x.jpg 1x, ./images/content/photo1-desktop-2x.jpg 2x"
+                                src="./images/content/photo1-desktop-1x.jpg" alt="Нанесение пены для бритья">
+                        </picture>
                     </li>
-                    <li class="photo-list__item"><img
-                            srcset="./images/content/photo2-desktop-1x.jpg 1x, ./images/content/photo2-desktop-2x.jpg 2x"
-                            src="./images/content/photo2-desktop-1x.jpg" alt="Стрижка" width="270" height="445"></li>
+                    <li class="photo-list__item">
+                        <picture>
+                            <source
+                                srcset="./images/content/tablet/photo2-tablet-1x.jpg 1x, ./images/content/tablet/photo2-tablet-2x.jpg 2x"
+                                media="(max-width:1199px)">
+
+                            <img srcset="./images/content/photo2-desktop-1x.jpg 1x, ./images/content/photo2-desktop-2x.jpg 2x"
+                                src="./images/content/photo2-desktop-1x.jpg" alt="Стрижка">
+                        </picture>
+                    </li>
                 </ul>
 
                 <div class="about__box">

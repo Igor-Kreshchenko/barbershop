@@ -19,19 +19,22 @@
     text-transform: uppercase;
 
     color: rgba(157, 164, 189, 0.4);
-
-    transition: color 250ms linear;
-
-    &:hover,
-    &:focus {
-      color: $secondary-title-color;
-    }
   }
 
   &__title {
     position: absolute;
     top: 0;
     left: 0;
+
+    transition: color 250ms linear, transform 250ms linear;
+
+    .form__input:hover + &,
+    .form__input:focus + &,
+    .form__input:not(:placeholder-shown) + &,
+    .form__input:not(:placeholder-shown) + & {
+      color: $secondary-title-color;
+      transform: translateY(-20px);
+    }
   }
 
   &__input {

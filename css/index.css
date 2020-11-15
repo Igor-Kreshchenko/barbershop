@@ -597,18 +597,25 @@ img {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: rgba(157, 164, 189, 0.4);
-  -webkit-transition: color 250ms linear;
-  transition: color 250ms linear;
-}
-
-.form__label:hover, .form__label:focus {
-  color: #ffffff;
 }
 
 .form__title {
   position: absolute;
   top: 0;
   left: 0;
+  -webkit-transition: color 250ms linear, -webkit-transform 250ms linear;
+  transition: color 250ms linear, -webkit-transform 250ms linear;
+  transition: color 250ms linear, transform 250ms linear;
+  transition: color 250ms linear, transform 250ms linear, -webkit-transform 250ms linear;
+}
+
+.form__input:hover + .form__title,
+.form__input:focus + .form__title,
+.form__input:not(:placeholder-shown) + .form__title,
+.form__input:not(:placeholder-shown) + .form__title {
+  color: #ffffff;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
 }
 
 .form__input {
